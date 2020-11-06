@@ -7,6 +7,7 @@ parser.add_argument('-s', '--src', default='en', choices=['mn', 'en'], help='sou
 parser.add_argument('-d', '--dst', default='mn', choices=['mn', 'en'], help='destination language')
 args = parser.parse_args()
 translator = Translator()
+print('nandia tenegee')
 def main():
     while True:
         files = os.listdir('./')
